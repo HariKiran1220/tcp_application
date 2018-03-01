@@ -15,6 +15,7 @@
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
+    "component-playground": "^3.1.1",
     "jquery": "3.0.0",
     "react": "15.0.2",
     "react-dom": "15.0.2",

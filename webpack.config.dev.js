@@ -16,6 +16,9 @@ export default {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  resolve: {
+    extensions: ["", ".js", ".jsx"]
+  },
   devServer: {
     contentBase: path.resolve(__dirname, 'src')
   },
