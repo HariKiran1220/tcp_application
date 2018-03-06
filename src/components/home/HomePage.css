@@ -1,3 +1,40 @@
-.title{
+/* .title{
     padding-top: 40px;
+    position: relative;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    float: left;
+}
+.home{
+    margin-top: auto;
+}
+.search{
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom-color: black;
+    width: 450px; 
+    padding-left: 0;
+    font-size: 120%;
+    outline: none;  
+}
+
+.search-box{
+    padding-top: 105px;
+    padding-right: 30px;
+    padding-left: 15px;
+} */
+
+
+.rows { 
+   display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
 }

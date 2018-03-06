@@ -12,16 +12,22 @@
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
+    "classnames": "^2.2.5",
     "component-playground": "^3.1.1",
     "jquery": "3.0.0",
-    "react": "15.0.2",
+    "react": "^15.0.2",
     "react-dom": "15.0.2",
     "react-redux": "4.4.5",
-    "react-router": "^2.4.0",
+    "react-router": "^2.8.1",
     "react-router-redux": "4.0.4",
+    "react-sizes": "^1.0.3",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
     "toastr": "2.1.2"
@@ -55,6 +61,7 @@
     "nock": "8.0.0",
     "npm-run-all": "1.8.0",
     "open": "0.0.5",
+    "pre-commit": "^1.2.2",
     "react-addons-test-utils": "15.0.2",
     "redux-immutable-state-invariant": "1.2.3",
     "redux-mock-store": "1.0.2",
